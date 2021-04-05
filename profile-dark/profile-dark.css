@@ -1,0 +1,98 @@
+.palette {
+    color: white;
+    color: #3C4959;
+    color: #29394d;
+    color: #D9BEA7;
+    color: #8C6954;
+    color: #734A3C;
+    color: #261713;
+}
+body {
+    background-color: #3C4959;
+    color: white;
+    font-family:  'Roboto', sans-serif;
+}
+.contacts {
+    width: 15em;
+}
+.contacts .avatar img {
+    height: 3em;
+}
+.contacts .item {
+    border: 1px solid #29394d;
+    padding: .25em .5em;
+    color: #7590b1;
+}
+.contacts .avatar,
+.contacts .name{
+    display: inline-block;
+    vertical-align: middle;
+}
+.contacts .actions {
+    float: right;
+    padding-top: 1em;
+}
+.contacts .actions a {
+    color: #29394d;
+}
+.contacts .item {
+    text-align: right;
+    overflow: hidden;
+}
+.contacts .main,
+.contacts .actions-details {
+    border: 0.1px solid transparent;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    vertical-align: middle;
+}
+.contacts .actions-details {
+    margin-right: -102%;
+    
+}
+.contacts .actions-details a,
+.contacts .actions-details label {
+    padding: .5em 1em;
+    display: inline-block;
+    color: #7590b1;
+    cursor: pointer;
+}
+.contacts .item > div{
+    transition: 0.5s;
+}
+.contacts .item:target > div{
+    transform: translateX(-104%);
+}
+.contacts .actions-details input[type="checkbox"] {
+    display: none;
+}
+.contacts .actions-details form{
+    display: none;
+}
+.contacts .actions-details input[type="checkbox"]:checked+form{
+    display: block;
+}
+.contacts .actions-details form textarea {
+    border-radius: 5px;
+    background-color:#D9BEA7;
+}
+.contacts .actions-details form button {
+    color: #29394d;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+#delete-form {
+    border: 1px solid white;
+    padding: .5em;
+}
+.contacts .actions-details input.answer{
+    display: inline;
+}
+#block-form {
+    border: 1px solid white;
+    padding: .5em;
+}
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile-dark.css">
+</head>
+<body>
+    <ol class="contacts">
+        <li class="item">...</li>
+        <li class="item">...</li>
+        <li class="item" id="profile-3">
+            <div class="main">
+                <div class="avatar"><img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesarSidePart&accessoriesType=Prescription02&hairColor=BlondeGolden&facialHairType=MoustacheMagnum&facialHairColor=BrownDark&clotheType=ShirtScoopNeck&clotheColor=Black&eyeType=Squint&eyebrowType=AngryNatural&mouthType=Tongue&skinColor=Tanned" alt="avatar"/> </div>
+                <div class="name">John Doe</div>
+                <div class="actions">
+                    <a href="#profile-3"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+            <div class="actions-details">
+                <label for="message-3">
+                    <i class="far fa-comment"></i>
+                </label>
+                <label for="delete-3">
+                    <i class="far fa-trash-alt"></i>
+                </label>
+                <label for="block-3">
+                    <i class="fas fa-minus-circle"></i>
+                </label>                
+                <input type="checkbox" id="message-3">
+                
+                <form action="/">
+                    <textarea cols="22" rows="5"></textarea>
+                        <br>
+                        <button>SEND</button>
+                </form>
+                <input type="checkbox" id="delete-3">
+
+                <form action="/" id="delete-form">
+                    <div class="delete-text">Are you sure you want to delete this profile?</div>
+                    <input type="radio" name="answer" class="answer">Yes
+                    <br>
+                    <input type="radio" name="answer" class="answer">No
+                </form>
+
+                <input type="checkbox" id="block-3">
+                <form action="/" id="block-form">
+                    <div class="delete-text">Are you sure you want to block this profile?</div>
+                    <input type="radio" name="answer" class="answer">Yes
+                    <br>
+                    <input type="radio" name="answer" class="answer">No
+                </form>
+                <a href="/"><i class="fas fa-chevron-left"></i></a>
+            </div>
+        </li>
+        <li class="item">...</li>
+        <li class="item">...</li>
+    </ol>
+</body>
+</html>
